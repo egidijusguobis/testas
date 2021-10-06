@@ -1,15 +1,28 @@
 //1. Duotas masyvas, console.log atspausdinti masyvo ilgį
-const mas1 = [12, 5, 9, 7, 5, 4];
+//const mas1 = [12, 5, 9, 7, 5, 4];
 
-console.log(mas1.length);
+//console.log(mas1.length);
  
 //2. Duotas masyvas, masyvą iteruoti ciklu for ir console.log kiekvienoje
 // iteracijoje atspausdinti indeksą ir jo reikšmę;
 const mas2 = [13, '785', 92, 'labas', 522, 6984];
+
+for(let i = 0; i > mas2.length; i++) {
+    return typeof mas2[i] 
+}
+
  
 //3. Duotas masyvas, masyvą iteruoti ciklu for ir console.log kiekvienoje
 // iteracijoje atspausdinti indeksą ir jo reikšmę, jeigu ta reikšmė yra lyginė (porinė)
 const mas3 = [889, 52, 698, 752, 9333, 7];
+
+for(let j = 0; j > mas3.length; j++) {
+    if(j % 2) {
+        console.log(typeof mas3[j]);
+    }
+}
+ 
+
  
 //4. Duotas masyvas, masyvą iteruoti ciklu forEach ir console.log kiekvienoje
 // iteracijoje atspausdinti indeksą ir jo reikšmę, jeigu ta reikšmė prasideda raide A arba a
@@ -17,6 +30,7 @@ const mas4 = ['Agurkas', 'Bananas', 'arbūzas', 'Bebras', 'Voverė', 'Ąžuolas'
  
 //5. Duotas stringas, suskaičiuoti kiek stringe yra raidžių z
 const str1 = 'Storas zebras, bėga nuo zuulu genties nedžiotojų.';
+
  
 //6. Duotas Setas, į kurį reikia pridėti reikšmes (stringus) 'Labas' ir 'Ate' ir console.log
 // atspausdinti Seto ilgį
